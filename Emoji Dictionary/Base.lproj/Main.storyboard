@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ycp-ET-Qg3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QGm-Qn-keO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -42,12 +42,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="58.920539730134934"/>
+            <point key="canvasLocation" x="1911.2" y="58.920539730134934"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="GR9-de-dZm">
             <objects>
-                <viewController id="Wb3-hi-e6W" sceneMemberID="viewController">
+                <viewController id="Wb3-hi-e6W" customClass="DefinitionViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2zB-gH-Sra"/>
                         <viewControllerLayoutGuide type="bottom" id="BKk-xh-aHV"/>
@@ -77,28 +77,32 @@
                             <constraint firstItem="9b0-Dx-UhC" firstAttribute="top" secondItem="nmJ-wH-iCg" secondAttribute="bottom" constant="50" id="sYb-ye-eXD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="defLabel" destination="9b0-Dx-UhC" id="qOu-fy-dad"/>
+                        <outlet property="emojiLabel" destination="nmJ-wH-iCg" id="BXo-GY-4Nj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NoI-ct-Ni5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="134.48275862068968"/>
+            <point key="canvasLocation" x="2935.1999999999998" y="134.48275862068968"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="gEM-Xs-p7j">
+        <scene sceneID="Epd-4d-Z7l">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ycp-ET-Qg3" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QGm-Qn-keO" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ScU-v3-DSN">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OtQ-5d-0qL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TRt-Do-bwD"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="juF-oY-YCK"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3nY-z1-lDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIH-Zh-FWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="-623.83808095952031"/>
+            <point key="canvasLocation" x="972" y="58.920539730134934"/>
         </scene>
     </scenes>
 </document>

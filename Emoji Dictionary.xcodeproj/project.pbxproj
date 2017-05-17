@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EC2EE711ECB78D200AD27CD /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2EE701ECB78D200AD27CD /* DefinitionViewController.swift */; };
 		8EDF7F431EC3209A00B4B4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF7F421EC3209A00B4B4DD /* AppDelegate.swift */; };
 		8EDF7F451EC3209A00B4B4DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF7F441EC3209A00B4B4DD /* ViewController.swift */; };
 		8EDF7F481EC3209A00B4B4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF7F461EC3209A00B4B4DD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EC2EE701ECB78D200AD27CD /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		8EDF7F3F1EC3209A00B4B4DD /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDF7F421EC3209A00B4B4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDF7F441EC3209A00B4B4DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8EDF7F421EC3209A00B4B4DD /* AppDelegate.swift */,
 				8EDF7F441EC3209A00B4B4DD /* ViewController.swift */,
+				8EC2EE701ECB78D200AD27CD /* DefinitionViewController.swift */,
 				8EDF7F461EC3209A00B4B4DD /* Main.storyboard */,
 				8EDF7F491EC3209A00B4B4DD /* Assets.xcassets */,
 				8EDF7F4B1EC3209A00B4B4DD /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDF7F451EC3209A00B4B4DD /* ViewController.swift in Sources */,
+				8EC2EE711ECB78D200AD27CD /* DefinitionViewController.swift in Sources */,
 				8EDF7F431EC3209A00B4B4DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				8EDF7F691EC3209A00B4B4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EDF7F6A1EC3209A00B4B4DD /* Build configuration list for PBXNativeTarget "Emoji DictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				8EDF7F6C1EC3209A00B4B4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EDF7F6D1EC3209A00B4B4DD /* Build configuration list for PBXNativeTarget "Emoji DictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				8EDF7F6F1EC3209A00B4B4DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
