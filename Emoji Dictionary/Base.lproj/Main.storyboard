@@ -37,7 +37,7 @@
                     <navigationItem key="navigationItem" id="Z4w-8k-SpJ"/>
                     <connections>
                         <outlet property="tableview" destination="L9F-5p-odg" id="gGl-pk-MfH"/>
-                        <segue destination="Wb3-hi-e6W" kind="presentation" identifier="moveSegue" id="774-Yg-ZqJ"/>
+                        <segue destination="Wb3-hi-e6W" kind="show" identifier="moveSegue" id="774-Yg-ZqJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -96,6 +96,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8e1-g1-xGs">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="juF-oY-YCK"/>
                     </connections>
